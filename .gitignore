@@ -7,3 +7,8 @@ pretrained_model/*.pth
 # Output
 test_img/*
 test_output/*
+
+.history/
+.vscode/
+__pycache__/
+.DS_Store
