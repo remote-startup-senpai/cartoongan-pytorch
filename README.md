@@ -8,7 +8,8 @@ This model is normally used for poster POCs and Blender3D->2D background tests a
 
 - Unix-based OS
 - `python 3.9.9` (other 3.x versions may work as well)
-    - NOTE: This also works with M1 Macbooks
+  - NOTE: This also works with M1 Macbooks
+- `wget` (`brew install wget`) (if you don't have it)
 - (optional, will default to CPU if no GPU/CUDA detected) NVIDIA GPU
 
 ### Setup
