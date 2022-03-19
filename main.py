@@ -20,7 +20,7 @@ parser.add_argument("--gpu", type=int, default=0)
 
 opt = parser.parse_args()
 
-valid_ext = [".jpg", ".png"]
+valid_ext = [".jpg", ".png", ".jpeg"]
 
 # setup
 if not os.path.exists(opt.input_dir):
