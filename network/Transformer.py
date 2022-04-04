@@ -146,7 +146,7 @@ class Transformer(nn.Module):
 
         y = F.relu(self.in12_1(self.deconv01_2(self.deconv01_1(y))))
         y = F.relu(self.in13_1(self.deconv02_2(self.deconv02_1(y))))
-        y = F.tanh(self.deconv03_1(self.refpad12_1(y)))
+        y = torch.tanh(self.deconv03_1(self.refpad12_1(y)))
 
         return y
 
