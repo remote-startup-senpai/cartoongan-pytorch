@@ -4,6 +4,8 @@ This is a modified version of [Yijunmaverick's implementation](https://github.co
 
 This model is normally used for poster POCs and Blender3D->2D background tests and pre-processing, more like a Photoshop filter for visualising characters with the background before post-processing with light rays, additional shadows, among others.
 
+[![Demo in Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/akiyamasho/AnimeBackgroundGAN)
+
 ### Requirements
 
 - Unix-based OS
